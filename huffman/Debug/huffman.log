@@ -1,0 +1,4 @@
+﻿  huffman.cpp
+f:\_university\программирование\mind_fuck#7\huffman\huffman\huffman.cpp(90): warning C4018: '<': signed/unsigned mismatch
+  huffman.vcxproj -> F:\_university\программирование\mind_fuck#7\huffman\Debug\huffman.exe
+  huffman.vcxproj -> F:\_university\программирование\mind_fuck#7\huffman\Debug\huffman.pdb (Partial PDB)
