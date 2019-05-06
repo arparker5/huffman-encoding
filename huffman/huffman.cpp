@@ -105,8 +105,8 @@ int main()
 
 	qsort(arr, arrSize, sizeof(myStruct), myComparator);
 
-	for (int i = 0; i < arrSize; i++) {
-		cout << arr[i].element << " => " << arr[i].frequency << "\n";
+	for (auto a : arr) {
+		cout << a.element << " => " << a.frequency << "\n";
 	}
 
 
@@ -117,11 +117,11 @@ int main()
 	treeLeaf *n;
 	vector<treeLeaf*> tops; // top-nodes
 
-	for (int i = 0; i<arrSize; i++)
+	for (auto a : arr)
 	{
 		n = new treeLeaf;
-		n->element = arr[i].element;
-		n->frequency = arr[i].frequency;
+		n->element = a.element;
+		n->frequency = a.frequency;
 		n->leafLeft = NULL;
 		n->leafRight = NULL;
 		tops.push_back(n);
